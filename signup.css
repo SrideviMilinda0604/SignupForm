@@ -1,0 +1,80 @@
+*{
+    margin:0%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.one{
+    width: 50%;
+}
+.two{
+    width: 50%;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+}
+#formy{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    color: #2424a7;
+    text-align: center;
+    font-size: 33px;
+    text-decoration: underline 2px solid goldenrod;
+    margin-top: 3%;
+}
+#formy label{
+    color: #288fda;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+#formy input[type="text"],
+[type="email"],
+[type="password"] {
+    padding: 1%;
+    border-radius: 10px;
+    width: 90%;
+    border: none;
+    box-shadow: 1px 2px 2px grey;
+
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+.check p{
+    margin-left: 3%;
+}
+.btn{
+    background-color: #1f89df;
+    color: white;
+    padding: 1%;
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    font-weight: bold;
+    font-size: 18px;
+}
+btn:hover{
+    background-color: white;
+    color: #0c7bc0;
+    border: 1px solid #0c7bc0;
+    
+}
+.end{
+    text-align: center;
+    margin-top: 2%;
+}
+.end a{
+    text-decoration: none;
+    color: #0c7bc0;
+    font-size: 20px;
+}
